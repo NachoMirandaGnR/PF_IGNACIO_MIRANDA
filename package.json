@@ -1,0 +1,20 @@
+{
+  "name": "pf_ignacio_miranda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachoMirandaGnR/PF_IGNACIO_MIRANDA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachoMirandaGnR/PF_IGNACIO_MIRANDA/issues"
+  },
+  "homepage": "https://github.com/NachoMirandaGnR/PF_IGNACIO_MIRANDA#readme"
+}
