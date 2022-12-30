@@ -21,6 +21,7 @@ body {
     #798e97,
     #889fa5
   );
+
   width: 100%;
 }
 
@@ -34,8 +35,8 @@ body {
     "section"
     "footer";
 }
-
 /* Header / Nav */
+
 .header {
   max-width: 1400px;
   margin: auto;
@@ -84,7 +85,6 @@ body {
 footer {
   grid-area: footer;
 }
-
 .container-footer {
   display: flex;
   flex-direction: column;
@@ -92,7 +92,6 @@ footer {
   padding-top: 1.5625rem;
   background-color: #889fa5;
 }
-
 .container-footer div {
   display: flex;
   flex-direction: column;
@@ -126,7 +125,7 @@ footer {
 .footer-copyright {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(46, 78, 69, 0.3098039216);
+  background-color: #2e4e454f;
   padding: 1rem;
 }
 
@@ -135,6 +134,7 @@ section {
 }
 
 /* Pag 1 */
+
 .container {
   text-align: center;
   padding: 1.5rem;
@@ -166,7 +166,6 @@ section {
 .container-p2 div {
   padding-top: 1.875rem;
 }
-
 .table-page__text {
   font-size: 0.9375rem;
   text-align: justify;
@@ -226,7 +225,6 @@ section {
 .container-p5 div {
   padding: 0.75rem;
 }
-
 .contact-text {
   font-size: 12;
   color: black;
@@ -249,7 +247,7 @@ section {
 .contact-box {
   width: 350px;
   margin: auto;
-  background: rgba(108, 125, 137, 0.2549019608);
+  background: #6c7d8941;
   border-radius: 0.625rem;
 }
 
@@ -276,6 +274,7 @@ textarea {
 }
 
 /* Escritorio */
+
 @media (min-width: 800px) {
   header .nav__menu {
     display: flex;
@@ -283,12 +282,15 @@ textarea {
     padding: 20px;
     justify-content: space-around;
   }
+
   .nav__link {
     color: white;
   }
+
   .nav__link:hover {
     color: beige;
   }
+
   .container-footer {
     display: flex;
     flex-direction: row;
@@ -296,73 +298,91 @@ textarea {
     padding-top: 2rem;
     background-color: #889fa5;
   }
+
   .container-footer div a {
     font-size: 16px;
   }
+
   /* Pag 1 Desktop */
   .container {
     padding: 3.125rem;
   }
+
   .intro-box {
     font-size: 2.5rem;
   }
+
   /* Pag 2 Desktop */
   .container-p2 {
     padding: 3.125rem;
   }
+
   .table-page__table {
     text-align: center;
   }
+
   .table-page__text {
     font-size: 1.25rem;
   }
+
   .table-page__video {
     text-align: center;
   }
+
   /* Pag 3 Desktop */
+
   .container-p3 {
     padding: 3.125rem;
   }
+
   .faq__title {
     font-size: 28px;
   }
+
   .faq__text h2 {
     font-size: 18px;
     text-align: justify;
   }
+
   .faq__text p {
     font-size: 14px;
   }
+
   /* Pag 4 Desktop */
   .container-p4 {
     padding: 3.125rem;
   }
+
   .sobre-nosotros__intro h1 {
     font-size: 28px;
   }
+
   .sobre-nosotros__intro p {
     font-size: 14px;
     text-align: justify;
   }
+
   /* Pag 5 Desktop */
   .container-p5 {
     padding: 3.125rem;
     text-align: start;
   }
+
   .container-p5 h1 {
     font-size: 28px;
   }
+
   .contact-text {
     font-size: 18px;
   }
+
   .contact-text__icons {
     display: flex;
     flex-direction: column;
     font-size: 19px;
   }
+
   .contact-text__icons i {
     margin-top: 15px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
